@@ -7,6 +7,9 @@ mouse-hide-while-typing
 # Make the background transparent
 background-opacity = 0.9
 
+# Set the font
+font-size = 14
+
 # Changing the icon
 macos-icon = custom-style
 macos-icon-frame = beige
