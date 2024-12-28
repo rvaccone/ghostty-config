@@ -1,23 +1,28 @@
-# Setting the theme
+# Appearance
 theme = dark:GruvboxDarkHard,light:GruvboxLight
-
-# Hide the mouse while typing
-mouse-hide-while-typing
-
-# Make the background transparent
 background-opacity = 0.9
+window-padding-x = 5
+window-padding-y = 5
 
-# Set the font
+# Cursor
+mouse-hide-while-typing = true
+cursor-style-blink = false
+
+# Font
 font-size = 14
 
-# Changing the icon
+# Icon
 macos-icon = custom-style
 macos-icon-frame = beige
 macos-icon-ghost-color = #E5DED6
 macos-icon-screen-color = #E5DED6,#9C8E83
 
-# Show desktop notifications
+# macOS
+macos-titlebar-style = tabs
+macos-secure-input-indication = true
+
+# Notifications
 desktop-notifications = true
 
-# Allow automatic updates
+# Updates
 auto-update = download
