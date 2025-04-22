@@ -1,6 +1,7 @@
 # Appearance
 theme = dark:GruvboxDarkHard,light:GruvboxLight
 background-opacity = 0.9
+background-blur = true
 window-padding-x = 5
 window-padding-y = 5
 
