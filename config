@@ -1,5 +1,5 @@
 # Appearance
-theme = dark:GruvboxDarkHard,light:GruvboxLight
+theme = dark:Gruvbox Dark Hard,light:Gruvbox Light
 background-opacity = 0.9
 background-blur = true
 window-padding-x = 5
