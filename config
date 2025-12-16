@@ -10,8 +10,9 @@ mouse-hide-while-typing = true
 cursor-style-blink = false
 
 # Font
+# brew install --cask font-maple-mono-normal-nf
 font-size = 16
-font-family = "Maple Mono Normal NF" # brew install --cask font-maple-mono-normal-nf
+font-family = Maple Mono Normal NF
 
 # Icon
 macos-icon = custom-style
