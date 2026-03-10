@@ -34,8 +34,8 @@ macos-secure-input-indication = true
 
 # Quick terminal
 keybind = global:cmd+u=toggle_quick_terminal
-quick-terminal-position = right
-quick-terminal-size = 50%
+quick-terminal-position = center
+quick-terminal-size = 50%,50%
 quick-terminal-screen = mouse
 quick-terminal-animation-duration = 0.1
 
