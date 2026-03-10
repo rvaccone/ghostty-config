@@ -26,6 +26,7 @@ macos-secure-input-indication = true
 
 # Notifications
 desktop-notifications = true
+notify-on-command-finish = unfocused
 
 # Updates
 auto-update = download
