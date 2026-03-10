@@ -1,7 +1,7 @@
 # Appearance
 theme = dark:Gruvbox Dark Hard,light:Gruvbox Light
-background-opacity = 0.7
-background-blur = true
+background-opacity = 0.25
+background-blur = macos-glass-regular
 window-padding-x = 5
 window-padding-y = 5
 
@@ -14,6 +14,9 @@ cursor-style-blink = false
 font-size = 16
 font-family = Maple Mono Normal NF
 
+# Clipboard
+copy-on-select = clipboard
+
 # Icon
 macos-icon = custom-style
 macos-icon-frame = beige
@@ -22,11 +25,20 @@ macos-icon-screen-color = #E5DED6,#9C8E83
 
 # macOS
 macos-titlebar-style = tabs
+macos-auto-secure-input = true
 macos-secure-input-indication = true
+
+# Quick terminal
+keybind = global:cmd+u=toggle_quick_terminal
+quick-terminal-position = right
+quick-terminal-size = 50%
+quick-terminal-screen = mouse
+quick-terminal-animation-duration = 0.1
 
 # Notifications
 desktop-notifications = true
 notify-on-command-finish = unfocused
+notify-on-command-finish-action = notify
 
 # Updates
 auto-update = download
