@@ -16,6 +16,7 @@ font-family = Maple Mono Normal NF
 
 # Clipboard
 copy-on-select = clipboard
+clipboard-trim-trailing-spaces = true
 
 # Icon
 macos-icon = custom-style
@@ -23,8 +24,11 @@ macos-icon-frame = beige
 macos-icon-ghost-color = #E5DED6
 macos-icon-screen-color = #E5DED6,#9C8E83
 
-# macOS
+# Window
 macos-titlebar-style = tabs
+window-show-tab-bar = always
+
+# macOS
 macos-auto-secure-input = true
 macos-secure-input-indication = true
 
