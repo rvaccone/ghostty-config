@@ -1,5 +1,5 @@
 # Appearance
-theme = dark:Gruvbox Dark Hard,light:Gruvbox Light
+theme = dark:Gruvbox Dark,light:Gruvbox Light
 background-opacity = 0.25
 background-blur = macos-glass-regular
 window-padding-x = 5
