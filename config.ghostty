@@ -46,3 +46,7 @@ notify-on-command-finish-action = notify
 
 # Updates
 auto-update = download
+
+# Tab Management
+keybind = cmd+shift+h=move_tab:-1
+keybind = cmd+shift+l=move_tab:1
