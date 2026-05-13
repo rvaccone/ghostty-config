@@ -47,6 +47,10 @@ notify-on-command-finish-action = notify
 # Updates
 auto-update = download
 
+# Scrolling
+keybind = shift+ctrl+j=scroll_page_lines:4
+keybind = shift+ctrl+k=scroll_page_lines:-4
+
 # Tab Management
 keybind = cmd+shift+h=move_tab:-1
 keybind = cmd+shift+l=move_tab:1
