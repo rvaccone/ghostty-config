@@ -57,7 +57,7 @@ keybind = cmd+shift+l=move_tab:1
 
 # Command Palette
 ## Brew
-command-palette-entry = title:"Update Brew packages",description:"Update all Brew packages",action:"text:brew upgrade\n"
+command-palette-entry = title:"Maintain Brew",description:"Update, upgrade, and clean up Homebrew",action:"text:brew update && brew upgrade && brew cleanup\n"
 
 ## Development servers
 command-palette-entry = title:"Build and run npm",description:"Install, build, and run npm project",action:"text:npm ci && npm run build && npm run dev\n"
@@ -65,4 +65,4 @@ command-palette-entry = title:"Build and run pnpm",description:"Install, build, 
 command-palette-entry = title:"Build and run bun",description:"Install, build, and run bun project",action:"text:bun install --frozen-lockfile && bun run build && bun run dev\n"
 
 # Machine-local overrides
-config-file = ?config.local.ghostty
+config-file = ?local.ghostty
