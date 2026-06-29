@@ -54,3 +54,15 @@ keybind = shift+ctrl+k=scroll_page_lines:-4
 # Tab Management
 keybind = cmd+shift+h=move_tab:-1
 keybind = cmd+shift+l=move_tab:1
+
+# Command Palette
+## Brew
+command-palette-entry = title:"Update Brew packages",description:"Update all Brew packages",action:"text:brew upgrade\n"
+
+## Development servers
+command-palette-entry = title:"Build and run npm",description:"Install, build, and run npm project",action:"text:npm ci && npm run build && npm run dev\n"
+command-palette-entry = title:"Build and run pnpm",description:"Install, build, and run pnpm project",action:"text:pnpm install --frozen-lockfile && pnpm run build && pnpm run dev\n"
+command-palette-entry = title:"Build and run bun",description:"Install, build, and run bun project",action:"text:bun install --frozen-lockfile && bun run build && bun run dev\n"
+
+# Machine-local overrides
+config-file = ?config.local.ghostty
