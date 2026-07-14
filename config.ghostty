@@ -55,6 +55,9 @@ keybind = shift+ctrl+k=scroll_page_lines:-4
 keybind = cmd+shift+h=move_tab:-1
 keybind = cmd+shift+l=move_tab:1
 
+# State
+window-save-state = never
+
 # Command Palette
 ## Brew
 command-palette-entry = title:"Maintain Brew",description:"Update, upgrade, and clean up Homebrew",action:"text:brew update && brew upgrade && brew cleanup\n"
@@ -64,5 +67,27 @@ command-palette-entry = title:"Build and run npm",description:"Install, build, a
 command-palette-entry = title:"Build and run pnpm",description:"Install, build, and run pnpm project",action:"text:pnpm install --frozen-lockfile && pnpm run build && pnpm run dev\n"
 command-palette-entry = title:"Build and run bun",description:"Install, build, and run bun project",action:"text:bun install --frozen-lockfile && bun run build && bun run dev\n"
 
-# Machine-local overrides
-config-file = ?local.ghostty
+## Claude Code
+command-palette-entry = title:"Insight Claude",description:"Open Claude Code for Insight",action:"text:cd ~/Developer/insight/ && claude -c --effort=high\n"
+command-palette-entry = title:"Salvastra Claude",description:"Open Claude Code for Salvastra",action:"text:cd ~/Developer/salvastra-pi-edge/ && claude -c --effort=max\n"
+command-palette-entry = title:"Xonar Customer Claude",description:"Open Claude Code for Xonar Customer",action:"text:cd ~/Developer/xonar_customer/ && claude -c --effort=high\n"
+
+## Configs
+command-palette-entry = title:"Aerospace Config",description:"Navigate to Aerospace config",action:"text:cd ~/.config/aerospace/\n"
+command-palette-entry = title:"Claude Config",description:"Navigate to Claude config",action:"text:cd ~/.claude/\n"
+command-palette-entry = title:"Ghostty Config",description:"Navigate to Ghostty config",action:"text:cd ~/.config/ghostty/\n"
+command-palette-entry = title:"Neovim Config",description:"Navigate to Neovim config",action:"text:cd ~/.config/nvim/\n"
+command-palette-entry = title:"OpenCode Config",description:"Navigate to OpenCode config",action:"text:cd ~/.config/opencode/\n"
+command-palette-entry = title:"Tmux Config",description:"Navigate to tmux config",action:"text:cd ~/.config/tmux/\n"
+
+## GitHub
+command-palette-entry = title:"GitHub Auth Status",description:"Show which GitHub account is active",action:"text:gh auth status\n"
+command-palette-entry = title:"rvaccone GitHub auth",description:"Switch to rvaccone GitHub auth",action:"text:gh auth switch -u rvaccone\n"
+command-palette-entry = title:"rvaccone-xonar GitHub auth",description:"Switch to rvaccone-xonar GitHub auth",action:"text:gh auth switch -u rvaccone-xonar\n"
+
+## SSH
+command-palette-entry = title:"Add BitBucket SSH Key",description:"Add Xonar BitBucket key to list of identities",action:"text:ssh-add ~/.ssh/bitbucket_work\n"
+
+## Dev
+# Requires ~/.config/insight-dev/{dev.sh,Caddyfile}, which are not in this repo.
+command-palette-entry = title:"Insight Dev",description:"Launch Insight backend + frontend + proxy as a tmux split in this tab",action:"text:~/.config/insight-dev/dev.sh\n"
