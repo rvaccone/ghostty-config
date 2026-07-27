@@ -1,9 +1,8 @@
 # Appearance
 theme = dark:Gruvbox Dark,light:Gruvbox Light
-background-opacity = 0.25
+background-opacity = 0.5
 background-blur = macos-glass-regular
-window-padding-x = 5
-window-padding-y = 5
+adjust-cell-height = 5%
 
 # Cursor
 mouse-hide-while-typing = true
@@ -11,8 +10,8 @@ cursor-style-blink = false
 
 # Font
 # brew install --cask font-maple-mono-normal-nf
-font-size = 16
 font-family = Maple Mono Normal NF
+font-size = 16
 
 # Clipboard
 copy-on-select = clipboard
@@ -27,6 +26,9 @@ macos-icon-screen-color = #E5DED6,#9C8E83
 # Window
 macos-titlebar-style = tabs
 window-show-tab-bar = always
+window-padding-x = 10
+window-padding-y = 10
+window-colorspace = display-p3
 
 # macOS
 macos-auto-secure-input = true
