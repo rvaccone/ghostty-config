@@ -1,6 +1,6 @@
 # Appearance
-theme = dark:Gruvbox Dark,light:Gruvbox Light
-background-opacity = 0.5
+theme = dark:Everforest Dark Med,light:Gruvbox Material Light
+# background-opacity = 0.5
 background-blur = macos-glass-regular
 adjust-cell-height = 5%
 
@@ -24,7 +24,7 @@ macos-icon-ghost-color = #E5DED6
 macos-icon-screen-color = #E5DED6,#9C8E83
 
 # Window
-macos-titlebar-style = tabs
+# macos-titlebar-style = tabs
 window-show-tab-bar = always
 window-padding-x = 10
 window-padding-y = 10
@@ -48,6 +48,7 @@ notify-on-command-finish-action = notify
 
 # Updates
 auto-update = download
+auto-update-channel = tip
 
 # Scrolling
 keybind = shift+ctrl+j=scroll_page_lines:4
@@ -56,6 +57,8 @@ keybind = shift+ctrl+k=scroll_page_lines:-4
 # Tab Management
 keybind = cmd+shift+h=move_tab:-1
 keybind = cmd+shift+l=move_tab:1
+keybind = cmd+alt+left=previous_tab
+keybind = cmd+alt+right=next_tab
 
 # State
 window-save-state = never
